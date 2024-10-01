@@ -71,4 +71,19 @@ git clone https://github.com/ifzhang/ByteTrack.git
 
 ---
 
+### 5. Run inference:
+
+To run inference:
+
+1. Navigate to `/src/inference_mediapipe.py`.
+2. Add the required paths: `video_path`, `checkpoint_path`, and `output_video_path`.
+3. Run the following commands in the terminal:
+
+```
+conda activate taekwondo
+python inference_mediapipe.py
+```
+
+
+
 By following the steps above, you will have the necessary environment and dependencies set up for the Taekwondo project.
