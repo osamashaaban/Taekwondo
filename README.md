@@ -9,7 +9,7 @@ To get started with this project, follow the steps below to create and activate 
 
 ### Step 1: Create Conda Environment
 ```bash
-conda create --name taekwondo python=3.9
+conda create --name taekwondo python=3.10
 ```
 
 ### Step 2: Activate the Environment
@@ -29,49 +29,16 @@ pip install ultralytics
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 # Install OpenCV for video processing
-pip install opencv-python
+pip install mediapipe
 
-# Install Requests for HTTP requests
-pip install requests
+# Install supervision
+pip install supervision
 
-# Install MKL and NumPy for optimized math routines
-conda install -c conda-forge mkl
-conda install -c conda-forge numpy
-
-# Install DeepFace for facial analysis (if needed)
-pip install deepface
-
-# Update all installed Conda packages
-conda update --all
-
-# Install TensorFlow Keras
-pip install tf-keras
-
-# Install Loguru for logging
-pip install loguru
-
-# Install LAP for tracking acceleration
-conda install -c conda-forge lap
-
-# Install Cython and Bounding Box utilities
-pip install cython_bbox
-
-# Install OmegaConf for configuration management
-pip install omegaconf
-```
-
-### Step 4: Clone ByteTrack Repository
-
-Inside the `src` directory, clone the ByteTrack repository:
-
-```bash
-cd src
-git clone https://github.com/ifzhang/ByteTrack.git
 ```
 
 ---
 
-### 5. Run inference:
+### 4. Run inference:
 
 To run inference:
 
